@@ -15,3 +15,5 @@ Una herramienta que permita calcular el porcentaje y cantidad correspondiente de
 ![alt text](https://raw.githubusercontent.com/LuzKerenO/MedicionProductividad/master/Imagenes/Arquitectura.png)
 
 ## Tabla de contenidos (ToC)
+
+1. [Requerimientos](#https://github.com/LuzKerenO/MedicionProductividad/wiki/Documentación#Requerimientos)
