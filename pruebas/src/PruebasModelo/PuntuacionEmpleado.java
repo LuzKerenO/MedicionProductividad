@@ -9,36 +9,19 @@ package PruebasModelo;
  *
  * @author Luz Keren
  */
-public class Metrica {
-    private String mes;
-    private int anio;
-    private double tiempoPieza;
-    private double piezasRetrabajo;
-    private double piezasCompletas;
-    private double piezasDesecho;
+public class PuntuacionEmpleado {
+    int numeroEmpleado;
+    double tiempoPieza;
+    double piezasRetrabajo;
+    double piezasCompletas;
+    double piezasDesecho;
     
-    public Metrica(String mes, int anio, double tiempoPieza, double piezasRetrabajo, 
+    public PuntuacionEmpleado(int numeroEmpleado, double tiempoPieza, double piezasRetrabajo, 
             double piezasCompletas, double piezasDesecho){
-        this.setMes(mes);
-        this.setAnio(anio);
         this.setTiempoPieza(tiempoPieza);
         this.setPiezasRetrabajo(piezasRetrabajo);
         this.setPiezasCompletas(piezasCompletas);
         this.setPiezasDesecho(piezasDesecho);
-    }
-    
-    
-    public String getMes(){
-        return mes;
-    }
-    public void setMes(String mes){
-        this.mes = mes;
-    }
-    public int getAnio(){
-        return anio;
-    }
-    public void setAnio(int anio){
-        this.anio = anio;
     }
     public double getTiempoPieza(){
         return tiempoPieza;
@@ -62,7 +45,6 @@ public class Metrica {
         return piezasDesecho;
     }
     public void setPiezasDesecho(double piezasDesecho){
-    this.piezasDesecho = piezasDesecho;
+        this.piezasDesecho = piezasDesecho;
     }
-    
 }
