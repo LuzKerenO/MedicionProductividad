@@ -7,8 +7,9 @@ Este proyecto será una herramienta de medición de la productividad en Trejo he
 ## Problema identificado
 En la empresa, existen muchas inconformidades y quejas porque algunos empleados afirman que ellos trabajan más que otros y esto no se les reconoce, por ello, la implementación de bonos de productividad es una forma de reconocer el esfuerzo de los empleados. El equipo de Tremaq consideró más conveniente realizar la asignación de bonos por porcentaje, para que, de esta forma todos reciban una parte del bono de productividad.
 
-##Solución
+## Solución
 Una herramienta que permita calcular el porcentaje y cantidad correspondiente de bono para cada empleado, a través de sus puntuaciones mensuales.
 
 ## Arquitectura
 
+![alt text](https://raw.githubusercontent.com/LuzKerenO/MedicionProductividad/master/Imagenes/Arquitectura.png)
