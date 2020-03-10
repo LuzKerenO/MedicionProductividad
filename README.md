@@ -13,3 +13,5 @@ Una herramienta que permita calcular el porcentaje y cantidad correspondiente de
 ## Arquitectura
 
 ![alt text](https://raw.githubusercontent.com/LuzKerenO/MedicionProductividad/master/Imagenes/Arquitectura.png)
+
+## Tabla de contenidos (ToC)
