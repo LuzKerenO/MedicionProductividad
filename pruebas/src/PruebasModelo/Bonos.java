@@ -35,18 +35,6 @@ public class Bonos {
        }
       return porTiempoPieza;
    }
-   public double getTiempoPieza(){
-       return tiempoPieza;
-   }
-   public void setTiempoPieza(double tiempoPieza){
-       this.tiempoPieza = tiempoPieza;
-   }
-   public double getValTiempoPieza(){
-       return valTiempoPieza;
-   }
-   public void setValTiempoPieza(double valTiempoPieza){
-       this.valTiempoPieza = valTiempoPieza;
-   }
    public double getPorTiempoPieza(){
        return porTiempoPieza;
    }
@@ -61,18 +49,6 @@ public class Bonos {
            porPiezasRetrabajo = ((piezasRetrabajo/valPiezasRetrabajo)*0.25);  
        }
        return porPiezasRetrabajo;
-   }
-   public double getPiezasRetrabajo(){
-       return piezasRetrabajo;
-   }
-   public void setPiezasRetrabajo(double piezasRetrabajo){
-       this.piezasRetrabajo = piezasRetrabajo;
-   }
-   public double getValPiezasRetrabajo(){
-       return valPiezasRetrabajo;
-   }
-   public void setValPiezasRetrabajo(double valPiezasRetrabajo){
-       this.valPiezasRetrabajo = valPiezasRetrabajo;
    }
    public double getPorPiezasRetrabajo(){
        return porPiezasRetrabajo;
@@ -90,18 +66,6 @@ public class Bonos {
                    }
        return porPiezasCompletas;
     }
-   public double getPiezasCompletas(){
-       return piezasCompletas;
-   }
-   public void setPiezasCompletas(double piezasCompletas){
-       this.piezasCompletas = piezasCompletas;
-   }
-    public double getValPiezasCompletas(){
-       return valPiezasCompletas;
-   }
-   public void setValPiezasCompletas(double valPiezasCompletas){
-       this.valPiezasCompletas = valPiezasCompletas;
-   }
    public double getPorPiezasCompletas(){
        return porPiezasCompletas;
    }
@@ -116,18 +80,6 @@ public class Bonos {
            porPiezasDesecho = ((piezasDesecho/valPiezasDesecho)*0.25);
        }
        return porPiezasDesecho;
-   }
-   public double getPiezasDesecho(){
-       return piezasDesecho;
-   }
-   public void setPiezasDesecho(double piezasDesecho){
-       this.piezasDesecho = piezasDesecho;
-   }
-   public double getValPiezasDesecho(){
-       return valPiezasDesecho;
-   }
-   public void setValPiezasDesecho(double valPiezasDesecho){
-       this.valPiezasDesecho = valPiezasDesecho;
    }
    public double getPorPiezasDesecho(){
        return porPiezasDesecho;
